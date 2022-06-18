@@ -22,6 +22,8 @@
    </div>
    <div class="flex my-10">
     <div class="recently-reviewed w-3/4 mr-32"> 
+      <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Recently Reviewed</h2>
+      <div class="recently-reviewed-container space-y-12 mt-8"></div>
        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
        Donec et mauris ut sem eleifend rhoncus vel ac justo. 
        Mauris eget enim sem. Cras dignissim lectus ex, ut egestas 
