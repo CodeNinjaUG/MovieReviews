@@ -58,37 +58,37 @@
                 </div>
             </div>
             <div class="recently-reviewed w-1/4">
-               <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Most Anticipated</h2>
-               <div class="most-anticipated-container space-y-10 mt-8">
-                   <div class="game flex space-x-5">
-                            <a href="#">
-                                <img src="https://media.gettyimages.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?s=612x612"
-                                    alt="game cover" class="w-16 hover:opacity-70 transition ease-in-out duration-150">
-                            </a>
-                            <div>
-                               <a href="#" class="hover:text-gray-300"> Cyber Punk 777</a>
-                               <div class="text-gray-400 text-sm mt-1"> September 16, 2022</div>
-                            </div>
+                <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Most Anticipated</h2>
+                <div class="most-anticipated-container space-y-10 mt-8">
+                    <div class="game flex space-x-5">
+                        <a href="#">
+                            <img src="https://media.gettyimages.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?s=612x612"
+                                alt="game cover" class="w-16 hover:opacity-70 transition ease-in-out duration-150">
+                        </a>
+                        <div>
+                            <a href="#" class="hover:text-gray-300"> Cyber Punk 777</a>
+                            <div class="text-gray-400 text-sm mt-1"> September 16, 2022</div>
+                        </div>
 
-                   </div>
-               </div>
+                    </div>
+                </div>
 
-              <h2 class="text-blue-500 uppercase tracking-wide font-semibold mt-8">Most Anticipated</h2>
-               <div class="most-anticipated-container space-y-10 mt-8">
-                   <div class="game flex space-x-5">
-                            <a href="#">
-                                <img src="https://media.gettyimages.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?s=612x612"
-                                    alt="game cover" class="w-16 hover:opacity-70 transition ease-in-out duration-150">
-                            </a>
-                            <div>
-                               <a href="#" class="hover:text-gray-300"> Cyber Punk 777</a>
-                               <div class="text-gray-400 text-sm mt-1"> September 16, 2022</div>
-                            </div>
+                <h2 class="text-blue-500 uppercase tracking-wide font-semibold mt-8">Most Anticipated</h2>
+                <div class="most-anticipated-container space-y-10 mt-8">
+                    <div class="game flex space-x-5">
+                        <a href="#">
+                            <img src="https://media.gettyimages.com/vectors/cinema-poster-with-cola-filmstrip-and-clapper-vector-vector-id1244034031?s=612x612"
+                                alt="game cover" class="w-16 hover:opacity-70 transition ease-in-out duration-150">
+                        </a>
+                        <div>
+                            <a href="#" class="hover:text-gray-300"> Cyber Punk 777</a>
+                            <div class="text-gray-400 text-sm mt-1"> September 16, 2022</div>
+                        </div>
 
-                   </div>
-               </div>
+                    </div>
+                </div>
             </div>
-            
+
         </div>
     </div>
 @endsection
