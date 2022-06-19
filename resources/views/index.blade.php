@@ -158,23 +158,157 @@
                             </a>
                             <div class="text-gray-400 mt-1">PlayStation 4</div>
                             <p class="mt-6 text-gray-400">
-                               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                               Etiam et ante in lectus ultrices pretium. Vestibulum nec 
-                               enim vitae est porttitor molestie. Proin varius erat dui, 
-                               sit amet egestas turpis accumsan vel. Aliquam in dui ante. 
-                               Pellentesque faucibus odio ac efficitur placerat.
-                               In maximus pellentesque orci.       
-                             </p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam et ante in lectus ultrices pretium. Vestibulum nec
+                                enim vitae est porttitor molestie. Proin varius erat dui,
+                                sit amet egestas turpis accumsan vel. Aliquam in dui ante.
+                                Pellentesque faucibus odio ac efficitur placerat.
+                                In maximus pellentesque orci.
+                            </p>
                         </div>
 
                     </div>
-                    <div> Game Card </div>
-                    <div> Game Card </div>
+                    <!----container to store game cards --->
+                    <div class="bg-gray-800 rounded-lg shadow-md flex px-6 py-6">
+                        <div class="relative flex-none">
+                            <a href="#">
+                                <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-48 hover:opacity-75">
+                            </a>
+                            <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-900 rounded-full"
+                                style="right:-20px; bottom:-20px;">
+                                <div class="font-semibold text-xs flex justify-center items-center h-full"> 80%</div>
+                            </div>
+                        </div>
+
+                        <div class="ml-12">
+                            <a href="#"
+                                class="block text-base font-semibold leading-tight hover:text-gray-400 mt-4">
+                                Final Fantasy
+                            </a>
+                            <div class="text-gray-400 mt-1">PlayStation 4</div>
+                            <p class="mt-6 text-gray-400">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam et ante in lectus ultrices pretium. Vestibulum nec
+                                enim vitae est porttitor molestie. Proin varius erat dui,
+                                sit amet egestas turpis accumsan vel. Aliquam in dui ante.
+                                Pellentesque faucibus odio ac efficitur placerat.
+                                In maximus pellentesque orci.
+                            </p>
+                        </div>
+
+                    </div>
+                    <!----container to store game cards --->
+                    <div class="bg-gray-800 rounded-lg shadow-md flex px-6 py-6">
+                        <div class="relative flex-none">
+                            <a href="#">
+                                <img src="{{ asset('img/movie.jpg') }}" alt="game cover"
+                                    class="w-48 hover:opacity-75">
+                            </a>
+                            <div class="absolute bottom-0 right-0 w-16 h-16 bg-gray-900 rounded-full"
+                                style="right:-20px; bottom:-20px;">
+                                <div class="font-semibold text-xs flex justify-center items-center h-full"> 80%</div>
+                            </div>
+                        </div>
+
+                        <div class="ml-12">
+                            <a href="#"
+                                class="block text-base font-semibold leading-tight hover:text-gray-400 mt-4">
+                                Final Fantasy
+                            </a>
+                            <div class="text-gray-400 mt-1">PlayStation 4</div>
+                            <p class="mt-6 text-gray-400">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam et ante in lectus ultrices pretium. Vestibulum nec
+                                enim vitae est porttitor molestie. Proin varius erat dui,
+                                sit amet egestas turpis accumsan vel. Aliquam in dui ante.
+                                Pellentesque faucibus odio ac efficitur placerat.
+                                In maximus pellentesque orci.
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="mostly-anticipated w-1/4">
-                Mostly Anticipated
+            <div class="mostly-anticipated w-1/4 space-y-10">
+                <h2 class="text-blue-500 uppercase tracking-wide font-semibold"> Mostly Anticipated </h2>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+
+                <h2 class="text-blue-500 uppercase tracking-wide font-semibold"> Coming Soon </h2>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+
+                <div class="game flex">
+                    <a href="#">
+                        <img src="{{ asset('img/movie.jpg') }}" alt="game cover" class="w-16 hover:opacity-75">
+                    </a>
+                    <div class="ml-4">
+                        <a href="#" class="hover:text-gray-400"> CyberPunk </a>
+                        <div class="text-gray-400 text-sm mt-1">Sept 12 1990</div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
 @endsection
